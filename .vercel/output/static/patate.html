@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le petit passage</title>
+    <style>
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes colorChange {
+            0% { filter: hue-rotate(0deg); }
+            25% { filter: hue-rotate(90deg); }
+            50% { filter: hue-rotate(180deg); }
+            75% { filter: hue-rotate(270deg); }
+            100% { filter: hue-rotate(360deg); }
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            20% { transform: translateX(-3px); }
+            40% { transform: translateX(3px); }
+            60% { transform: translateX(-3px); }
+            80% { transform: translateX(3px); }
+        }
+
+        .colorful {
+            animation: colorChange 2s linear infinite, shake 1s linear infinite;
+        }
+
+        .rotate {
+            animation: rotation 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Avis sur la patate ?</h1>
+    <img id="patate" src="img/patate.png" alt="Patate">
+    <br>
+    <button id="trickButton">Faire un trick</button>
+    <button id="starButton">Faire un deuxième trick ✨</button>
+
+    <br><br>
+    <label for="avis">Donner son avis sur la patate</label>
+    <br>
+    <textarea id="avis" style="width: 90%; height: 20rem;"></textarea>
+
+    <br><br>
+    <button id="validateButton">Je valide l'avis sur la patate ✅</button>
+
+    <script>
+        const button = document.getElementById('trickButton');
+        const starButton = document.getElementById('starButton');
+        const image = document.getElementById('patate');
+
+        button.addEventListener('click', () => {
+            button.setAttribute('disabled', true)
+            starButton.setAttribute('disabled', true)
+            image.classList.add('rotate');
+            setTimeout(() => {
+                image.classList.remove('rotate');
+                button.removeAttribute('disabled')
+                starButton.removeAttribute('disabled')
+            }, 1000);
+        });
+
+        starButton.addEventListener('click', () => {
+            button.setAttribute('disabled', true)
+            starButton.setAttribute('disabled', true)
+            patate.classList.add('colorful');
+            setTimeout(() => {
+                patate.classList.remove('colorful');
+                button.removeAttribute('disabled')
+                starButton.removeAttribute('disabled')
+            }, 2000);
+        });
+
+        validateButton.addEventListener('click', () => {
+            alert("Je n'ai rien enregistré");
+        });
+    </script>
+</body>
+</html>
