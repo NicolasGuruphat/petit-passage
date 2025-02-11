@@ -1,0 +1,17 @@
+header {
+    background-color: aliceblue;
+    height: 10%; 
+    padding: 10px;  
+}
+header div {
+    margin: 10px;
+    font-size: 2rem;
+}
+nav a {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:darkblue
+}
