@@ -1,11 +1,17 @@
+* {
+    font-family: Verdana, sans-serif;
+}
 header {
+    
     background-color: aliceblue;
     height: 10%; 
     padding: 10px;  
 }
 header div {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
     margin: 10px;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 nav a {
     background-color: white;
