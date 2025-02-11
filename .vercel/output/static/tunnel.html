@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunnel WTF des Années 90</title>
+  <style>
+      body, html {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+      }
+      .rotating {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          animation: rotation 20s infinite linear;
+      }
+      @keyframes rotation {
+          from {
+              transform: rotate(0deg);
+          }
+          to {
+              transform: rotate(360deg);
+          }
+      }
+
+      body {
+          margin: 0;
+          overflow: hidden;
+      }
+
+      .tunnel {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 200vmax;
+          height: 200vmax;
+          background: radial-gradient(circle, transparent, black 50%);
+          animation: zoom 3s infinite linear;
+      }
+      @keyframes zoom {
+          from {
+              transform: translate(-50%, -50%) scale(1);
+          }
+          to {
+              transform: translate(-50%, -50%) scale(10);
+          }
+      }
+      .logo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 3rem;
+          color: cyan;
+          font-family: 'Comic Sans MS', sans-serif;
+          text-shadow: 5px 5px magenta;
+          animation: flash 0.1s infinite alternate;
+      }
+      @keyframes flash {
+          from { color: cyan; }
+          to { color: yellow; }
+      }
+      .confetti {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: url('https://media.giphy.com/media/3o6Zt8MgUuvSbkZYWc/giphy.gif') center center;
+          background-size: cover;
+          opacity: 0.8;
+          pointer-events: none;
+      }
+      .blink {
+          animation: blink 1s infinite;
+      }
+      @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+      }
+      .bounce {
+          display: inline-block;
+          animation: bounce 0.5s infinite alternate;
+      }
+      @keyframes bounce {
+          to { transform: translateY(-20px); }
+      }
+
+      /* Vidéo en fond */
+      .background-video {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100vw;
+          height: 100vh;
+          object-fit: cover;
+          z-index: -1;
+      }
+
+      /* Nouveaux styles pour le bouton */
+      .runaway-container {
+          position: fixed;
+          transition: all 0.3s ease;
+          pointer-events: auto;
+          padding: 10px; /* Zone morte autour du bouton */
+      }
+
+      .runaway-button {
+          padding: 15px 30px;
+          font-family: 'Comic Sans MS', cursive;
+          font-size: 1.8rem;
+          background: #ff00ff;
+          border: 3px dashed #00ffff;
+          color: #ffff00;
+          cursor: pointer;
+          text-shadow: 2px 2px #ff0000;
+          box-shadow: 0 0 15px #00ffff;
+          animation: buttonGlow 1s infinite alternate;
+      }
+
+      @keyframes buttonGlow {
+          from { box-shadow: 0 0 10px #00ffff; }
+          to { box-shadow: 0 0 20px #00ffff, 0 0 30px #ff00ff; }
+      }
+  </style>
+</head>
+<body>
+<script>
+    let textArray = [
+        'Tu es naze',
+        'Ma grand mère ferais mieux',
+        'Cheh',
+        'Bon on va pas y passer la nuit',
+        'Rompiche time',
+        'Fait un effort',
+        'Tu m\'a déçu %counter% fois',
+    ]
+    let counterHover = 0;
+    function spawnConfetti() {
+        const confettiContainer = document.createElement('div');
+        confettiContainer.style.position = 'fixed';
+        confettiContainer.style.top = '0';
+        confettiContainer.style.left = '0';
+        confettiContainer.style.width = '100vw';
+        confettiContainer.style.height = '100vh';
+        confettiContainer.style.pointerEvents = 'none';
+        confettiContainer.style.zIndex = '9999';
+        document.body.appendChild(confettiContainer);
+
+        function createConfettiPiece() {
+            const confetti = document.createElement('div');
+            confetti.innerHTML = ['🎉', '✨', '💩', '💀', '🎈', '🤡', '🦄'][Math.floor(Math.random() * 7)];
+            confetti.style.position = 'absolute';
+            confetti.style.fontSize = Math.random() * 40 + 10 + 'px';
+            confetti.style.left = Math.random() * window.innerWidth + 'px';
+            confetti.style.top = '-50px';
+            confetti.style.transition = 'transform 3s linear, opacity 3s linear';
+            confetti.style.transform = `rotate(${Math.random() * 360}deg)`;
+            confettiContainer.appendChild(confetti);
+
+            setTimeout(() => {
+                confetti.style.transform = `translateY(${window.innerHeight + 50}px) rotate(${Math.random() * 720}deg)`;
+                confetti.style.opacity = '0';
+            }, 10);
+
+            setTimeout(() => confetti.remove(), 3000);
+        }
+
+        setInterval(createConfettiPiece, 100);
+    }
+
+    function changeButtonText(counter) {
+        const btn = document.querySelector('.runaway-button');
+        const randomText = textArray[Math.floor(Math.random() * textArray.length)];
+        btn.textContent = randomText.replace('%counter%', counter);
+    }
+
+    // Initialisation du bouton
+    function initButton() {
+        const container = document.querySelector('.runaway-container');
+        const btn = document.querySelector('.runaway-button');
+
+        // Position initiale centrée en bas
+        const updatePosition = () => {
+            const rect = btn.getBoundingClientRect();
+            container.style.left = `${(window.innerWidth - rect.width) / 2}px`;
+            container.style.top = `${window.innerHeight - rect.height - 20}px`;
+        };
+
+        updatePosition();
+        window.addEventListener('resize', updatePosition);
+    }
+
+    // Fonction de mouvement aléatoire
+    function moveButton() {
+        const container = document.querySelector('.runaway-container');
+        const btn = document.querySelector('.runaway-button');
+
+        const btnRect = btn.getBoundingClientRect();
+        const maxX = window.innerWidth - btnRect.width - 20; // -20 pour la marge
+        const maxY = window.innerHeight - btnRect.height - 20;
+
+        const newX = Math.random() * maxX;
+        const newY = Math.random() * maxY;
+
+        container.style.left = `${newX}px`;
+        container.style.top = `${newY}px`;
+
+        counterHover = counterHover+1;
+
+        if (counterHover % 5 ===0) {
+            changeButtonText(counterHover);
+        }
+    }
+
+    // Initialisation
+    document.addEventListener('DOMContentLoaded', () => {
+        initButton();
+        document.querySelector('.runaway-container').addEventListener('mouseover', moveButton);
+    });
+    spawnConfetti();
+</script>
+<div class="confetti"></div>
+<video class="background-video" autoplay loop muted>
+  <source src="https://i.imgur.com/7Ifu42n.mp4" type="video/mp4">
+</video>
+<div class="rotating">
+  <div class="tunnel"></div>
+  <div class="logo blink">BIENVENUE DANS LE TUNNEL</div>
+  <div class="bounce" style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);">
+    <img src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif" alt="Dancing Baby">
+  </div>
+</div>
+
+<div class="runaway-container">
+  <button class="runaway-button">CLIQUE ICI LOL</button>
+</div>
+</body>
+</html>
