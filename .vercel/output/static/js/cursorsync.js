@@ -89,5 +89,5 @@ class CursorSync {
 }
 
 // Auto-instanciation si `cursorsync.js` est inclus dans la page
-window.cursorSync = new CursorSync("http://localhost:3000");
+window.cursorSync = new CursorSync("https://api.petit-passage.com");
 
