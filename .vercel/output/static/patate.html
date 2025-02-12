@@ -32,12 +32,21 @@
             80% { transform: translateX(3px); }
         }
 
+        @keyframes levitate {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
         .colorful {
             animation: colorChange 2s linear infinite, shake 1s linear infinite;
         }
 
         .rotate {
             animation: rotation 1s;
+        }
+
+        .levitate {
+            animation: levitate 1.5s ease-in-out infinite;
         }
     </style>
 </head>
@@ -47,6 +56,7 @@
     <br>
     <button id="trickButton">Faire un trick</button>
     <button id="starButton">Faire un deuxième trick ✨</button>
+    <button id="levitateButton">Faire un troisième trick 🚀</button>
 
     <br><br>
     <label for="avis">Donner son avis sur la patate</label>
@@ -59,28 +69,48 @@
     <script>
         const button = document.getElementById('trickButton');
         const starButton = document.getElementById('starButton');
+        const levitateButton = document.getElementById('levitateButton');
         const image = document.getElementById('patate');
 
         button.addEventListener('click', () => {
-            button.setAttribute('disabled', true)
-            starButton.setAttribute('disabled', true)
+            button.setAttribute('disabled', true);
+            starButton.setAttribute('disabled', true);
+            levitateButton.setAttribute('disabled', true);
             image.classList.add('rotate');
             setTimeout(() => {
                 image.classList.remove('rotate');
-                button.removeAttribute('disabled')
-                starButton.removeAttribute('disabled')
+                button.removeAttribute('disabled');
+                starButton.removeAttribute('disabled');
+                levitateButton.removeAttribute('disabled');
             }, 1000);
         });
 
         starButton.addEventListener('click', () => {
-            button.setAttribute('disabled', true)
-            starButton.setAttribute('disabled', true)
-            patate.classList.add('colorful');
+            button.setAttribute('disabled', true);
+            starButton.setAttribute('disabled', true);
+            levitateButton.setAttribute('disabled', true);
+            image.classList.add('colorful');
             setTimeout(() => {
-                patate.classList.remove('colorful');
-                button.removeAttribute('disabled')
-                starButton.removeAttribute('disabled')
+                image.classList.remove('colorful');
+                button.removeAttribute('disabled');
+                starButton.removeAttribute('disabled');
+                levitateButton.removeAttribute('disabled');
             }, 2000);
+        });
+
+        levitateButton.addEventListener('click', () => {
+            button.setAttribute('disabled', true);
+            starButton.setAttribute('disabled', true);
+            levitateButton.setAttribute('disabled', true);
+            image.classList.add('levitate');
+
+            setTimeout(() => {
+                image.classList.remove('levitate');
+                image.src = 'img/bayrou.jpg'; 
+                button.removeAttribute('disabled');
+                starButton.removeAttribute('disabled');
+                levitateButton.removeAttribute('disabled');
+            }, 3000);
         });
 
         validateButton.addEventListener('click', () => {
