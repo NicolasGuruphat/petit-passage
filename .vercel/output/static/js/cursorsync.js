@@ -2,8 +2,22 @@ class CursorSync {
     constructor(serverUrl) {
         this.serverUrl = serverUrl;
         this.cursors = {};
+        this.clientId = localStorage.getItem('cursorSyncClientId');
+        if (!this.clientId) {
+            this.clientId = this.generateUniqueId();
+            localStorage.setItem('cursorSyncClientId', this.clientId);
+        }
         this.loadSocketIO().then(() => this.init());
     }
+
+    generateUniqueId() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+            const r = Math.random() * 16 | 0;
+            const v = c === 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+    }
+
 
     async loadSocketIO() {
         if (typeof io === "undefined") {
@@ -18,13 +32,25 @@ class CursorSync {
 
     init() {
         this.socket = io(this.serverUrl);
+
+        // Envoi de l'ID client avec les mouvements
         document.addEventListener("mousemove", (event) => {
-            this.socket.emit("mousemove", { x: event.clientX, y: event.clientY, id: this.socket.id });
+            this.socket.emit("mousemove", {
+                x: event.clientX,
+                y: event.clientY,
+                id: this.clientId // Utilisation de l'ID client
+            });
         });
 
+        // Notification de déconnexion avant déchargement de la page
+        window.addEventListener('beforeunload', () => {
+            this.socket.emit("client_disconnect", { id: this.clientId });
+        });
+
+        // Écoute des événements
         this.socket.on("mousemove", (data) => this.updateCursor(data));
-        this.socket.on("disconnect", (id) => this.removeCursor(id));
-        console.log("CursorSync initialized");
+        this.socket.on("remove_cursor", (data) => this.removeCursor(data.id)); // Nouvel événement
+        console.log("CursorSync initialisé");
     }
 
     updateCursor(data) {
