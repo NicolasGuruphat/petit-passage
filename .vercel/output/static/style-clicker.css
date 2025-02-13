@@ -1,0 +1,89 @@
+body {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    height: 100vh;
+    margin: 0px;
+}
+
+#ppbackground {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(./img/pp_clicker_background.jpg);
+    background-size: 100% 100%;
+}
+
+#money-board  {
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 1);
+    margin-top: 5px;
+    padding: 0 5px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#upgrade-board  {
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 1);
+    margin-top: 5px;
+    padding: 0 5px;
+    grid-row: 2;
+    grid-column: 1/3;
+}
+
+.ppdollar-icon {
+    width: 18px;
+    height: auto;
+}
+
+#coin-board  {
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 1);
+    margin-top: 5px;
+    padding: 0 5px;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.ppcoin-icon {
+    width: 23px;
+    height: auto;
+}
+
+.ath-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 5px;
+    grid-auto-rows: minmax(50px, auto);
+    height: 40%;
+}
+
+.upgrade-row {
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 2px solid rgb(26, 156, 216);
+    margin: 2px;
+}
+
+.upgrade-button {
+    font-size: 1.4rem;
+}
+
+#ppclickable {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    height: 90%;
+}
