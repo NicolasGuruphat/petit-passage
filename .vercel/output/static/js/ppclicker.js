@@ -1,6 +1,14 @@
 let money = 0;
 let coins = 0;
 
+if(localStorage.getItem('money') !== null) {
+    money = parseInt(localStorage.getItem('money'));
+}
+
+if(localStorage.getItem('coins') !== null) {
+    coins = parseInt(localStorage.getItem('coins'));
+}
+
 let multiplicator = 1;
 let multiplicatorLevel = 1;
 let multiplicatorPrice = Math.ceil(Math.exp(0.2 * multiplicatorLevel));
@@ -44,15 +52,17 @@ critChancePriceLabel.textContent = multiplicatorPrice;
 critMultiplicatorLabel.textContent = multiplicator;
 critMultiplicatorPriceLabel.textContent = multiplicatorPrice;
 
+update();
+
 clickable.addEventListener('click', () => {
     money += Math.ceil(multiplicator * (1 + critMultiplicator * (Math.random() * 100 <= critChance ? 1 : 0)));
     clicks += 1;
     if(clicks >= coinThreshold) {
         clicks -= coinThreshold;
         coins += coinMultiplicator;
-        coinDisplay.textContent = coins;
     }
-    moneyDisplay.textContent = money;
+    update();
+    save();
 });
 
 multiplicatorButton.addEventListener('click', () => {
@@ -90,3 +100,13 @@ critMultiplicatorButton.addEventListener('click', () => {
         critMultiplicatorPriceLabel.textContent = critMultiplicatorPrice;
     }
 })
+
+function update() {
+    moneyDisplay.textContent = money;
+    coinDisplay.textContent = coins;
+}
+
+function save() {
+    localStorage.setItem('money', money);
+    localStorage.setItem('coins', coins);
+}
