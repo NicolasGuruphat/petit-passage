@@ -5,7 +5,8 @@ header {
     
     background-color: aliceblue;
     height: 10%; 
-    padding: 10px;  
+    padding: 10px;
+    margin-bottom: 0;
 }
 header div {
     font-family: 'Courier New', monospace;
