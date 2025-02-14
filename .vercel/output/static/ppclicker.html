@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
     <title>PPClicker</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style-clicker.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-clicker.css" />
     <script src="js/cursorsync.js" type="application/javascript"></script>
-
 </head>
-
 <body>
-    <div id="header-container"></div>
-    <script src="js/header.js" type="application/javascript"></script>
-    <div id="ppbackground"></div>
-    <main>
-        <div class="ath-wrapper">
-            <span id="money-board" class="">Money:
-                <span id="money-label" class="disp-block">0</span>
-                <img src="./img/ppdollar.svg" class="ppdollar-icon" />
-            </span>
-            <span id="coin-board">Coins:
-                <span id="coin-label">0</span>
-                <img src="./img/ppcoin.svg" class="ppcoin-icon" />
-            </span>
-            <span id="upgrade-board">Upgrades
-                <span class="upgrade-row">
-                    <span>Multiplicateur x<span id="multiplicator-label"></span></span>
-                    <button id="multiplicator-button" class="upgrade-button">
-                        <span id="multiplicator-price-label"></span><img src="./img/ppdollar.svg"
-                            class="ppdollar-icon" />
-                    </button>
-                </span>
-                <span class="upgrade-row">
-                    <span>Crit <span id="crit-pc-label"></span>%</span>
-                    <button id="crit-pc-button" class="upgrade-button">
-                        <span id="crit-pc-price-label"></span><img src="./img/ppdollar.svg" class="ppdollar-icon" />
-                    </button>
-                </span>
-                <span class="upgrade-row">
-                    <span>Multiplicateur de crit x<span id="crit-mult-label"></span></span>
-                    <button id="crit-mult-button" class="upgrade-button">
-                        <span id="crit-mult-price-label"></span><img src="./img/ppdollar.svg" class="ppdollar-icon" />
-                    </button>
-                </span>
-            </span>
-        </div>
-        <div id="ppclickable"></div>
-    </main>
-    <script src="js/ppclicker.js"></script>
+<div id="header-container"></div>
+<script src="js/header.js" type="application/javascript"></script>
+<div id="ppbackground"></div>
+<main>
+    <div class="ath-wrapper">
+      <span id="money-board" class="">Money:
+        <span id="money-label" class="disp-block">0</span>
+        <img src="./img/ppdollar.svg" class="ppdollar-icon" />
+      </span>
+        <span id="coin-board">Coins:
+        <span id="coin-label">0</span>
+        <img src="./img/ppcoin.svg" class="ppcoin-icon" />
+      </span>
+        <span id="upgrade-board">Upgrades
+        <span class="upgrade-row">
+          <span>Multiplicateur x<span id="multiplicator-label"></span></span>
+          <button id="multiplicator-button" class="upgrade-button">
+            <span id="multiplicator-price-label"></span>
+            <img src="./img/ppdollar.svg" class="ppdollar-icon" />
+          </button>
+        </span>
+        <span class="upgrade-row">
+          <span>Crit <span id="crit-pc-label"></span>%</span>
+          <button id="crit-pc-button" class="upgrade-button">
+            <span id="crit-pc-price-label"></span>
+            <img src="./img/ppdollar.svg" class="ppdollar-icon" />
+          </button>
+        </span>
+        <span class="upgrade-row">
+          <span>Multiplicateur de crit x<span id="crit-mult-label"></span></span>
+          <button id="crit-mult-button" class="upgrade-button">
+            <span id="crit-mult-price-label"></span>
+            <img src="./img/ppdollar.svg" class="ppdollar-icon" />
+          </button>
+        </span>
+        <span class="upgrade-row">
+          <span>L'admin clique pour toi: <span id="admin-autoclicker-label">0</span></span>
+          <button id="admin-autoclicker-button" class="upgrade-button">
+            <span id="admin-autoclicker-price-label"></span>
+            <img src="./img/ppdollar.svg" class="ppdollar-icon" />
+          </button>
+        </span>
+      </span>
+    </div>
+    <div id="ppclickable"></div>
+</main>
+<script src="js/ppclicker.js"></script>
 </body>
-
 </html>
