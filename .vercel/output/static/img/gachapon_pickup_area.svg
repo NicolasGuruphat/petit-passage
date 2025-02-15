@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="53mm"
+   height="66mm"
+   viewBox="0 0 53 66"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="gachapon_pickup_area.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.1801558"
+     inkscape:cx="126.88058"
+     inkscape:cy="122.79273"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch6"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-3">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-4">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-6"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-6"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-3">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-7"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-8"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-4"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-7"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-2">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-0"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-9">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-73"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-5">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-41"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-2">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-0"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-1">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-77"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-7">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-733"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-1-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-77-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-7-5">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-733-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-1-8-6">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-77-3-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-7-5-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-733-1-9"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-8"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-8"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-7">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-07">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-9">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-9"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-6">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-83"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-5">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-5"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-3">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-33"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-80">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-6"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-2">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-89"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-078">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-15"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-86">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-2"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-65">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-39"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-76">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-29"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-5">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-2"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-95">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-2">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-5"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-29">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-4"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-1">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-9"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-1">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-2"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-5">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-0"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-7">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-9"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-97">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-69"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-82">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-5"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-4">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-41"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-2">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-8"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-25">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-29">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-50">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-36"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-5">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-96"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-3">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-42"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-57">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-4"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-44">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-44"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-73">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-03"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-2"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-53">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-43"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-21">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-64">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-07"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-03">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-40"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-04"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-54">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-9"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-83">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-14"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-84">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-92"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-67">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-38"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-49">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-26"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-80-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-6-2"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-8-2">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-1-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-83-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-14-2"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-84-6">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-92-0"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-83-00">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-14-4"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-84-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-92-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-9-0">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-31-1"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-9-29">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-8-03"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-80-0-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-6-2-8"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-8-2-5">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-1-3-7"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-83-008">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-14-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-84-4">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-92-5"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-6-0-80-0-8-3">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-0-0-6-2-8-5"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-2-6-8-2-5-6">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-4-1-1-3-7-6"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#a90000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect6"
+       width="12.177816"
+       height="9.5304651"
+       x="27.827915"
+       y="51.88015" />
+    <path
+       style="fill:#5a0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 28.357386,60.939973 2.706183,-3.941612 5.353531,-0.05883 3.000333,3.941612 z"
+       id="path6"
+       sodipodi:nodetypes="ccccc"
+       inkscape:label="pick_area_floor" />
+  </g>
+</svg>
