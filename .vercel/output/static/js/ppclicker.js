@@ -1,5 +1,6 @@
-let money = 100000000000000000000;
+let money = 0;
 let coins = 0;
+localStorage.setItem('money', money);
 
 if (localStorage.getItem('money') !== null) {
     money = parseInt(localStorage.getItem('money'));
@@ -65,6 +66,58 @@ critMultiplicatorPriceLabel.textContent = critMultiplicatorPrice;
 adminAutoClickerLabel.textContent = adminAutoClickerLevel;
 adminAutoClickerPriceLabel.textContent = adminAutoClickerPrice;
 
+// Price computing formulas
+function exponentialOneFifth(level) {
+    return Math.ceil(Math.exp(0.2 * level));
+}
+// Money per click upgrade
+let moneyUpgrade = {
+    value: 1,
+    level: 1,
+    increment: 1,
+    price: Math.ceil(Math.exp(0.2 * 1)),
+    label: multiplicatorLabel,
+    button: multiplicatorButton,
+    priceLabel: multiplicatorPriceLabel,
+    priceFormula: exponentialOneFifth,
+}
+
+// Critical chance upgrade
+let critChanceUpgrade = {
+    value: 1,
+    level: 1,
+    increment: 1,
+    price: Math.ceil(Math.exp(0.2 * 1)),
+    label: critChanceLabel,
+    button: critChanceButton,
+    priceLabel: critChancePriceLabel,
+    priceFormula: exponentialOneFifth,
+}
+
+// Critical multiplicator upgrade
+let critMultiplicatorUpgrade = {
+    value: 0,
+    level: 1,
+    increment: 1,
+    price: Math.ceil(Math.exp(0.2 * 1)),
+    label: critMultiplicatorLabel,
+    button: critMultiplicatorButton,
+    priceLabel: critMultiplicatorPriceLabel,
+    priceFormula: exponentialOneFifth,
+}
+
+// Auto click upgrade
+let adminAutoClickerUpgrade = {
+    value: 0,
+    level: 1,
+    increment: 1,
+    price: Math.ceil(Math.exp(0.2 * 1)),
+    label: adminAutoClickerLabel,
+    button: adminAutoClickerButton,
+    priceLabel: adminAutoClickerPriceLabel,
+    priceFormula: exponentialOneFifth,
+}
+
 update();
 
 // Refactor click action into a function to reuse for auto‑clicker:
@@ -89,59 +142,37 @@ clickable.addEventListener('click', () => {
     doClick();
 });
 
+// Upgrade: Common / Template
+function upgradeButtonEventHandler(upgradeDict) {
+    if (money >= upgradeDict.price) {
+        money -= upgradeDict.price;
+        upgradeDict.value += upgradeDict.increment;
+        upgradeDict.level += 1;
+        upgradeDict.price = upgradeDict.priceFormula(upgradeDict.level)
+        moneyDisplay.textContent = money;
+        upgradeDict.label.textContent = upgradeDict.value;
+        upgradeDict.priceLabel.textContent = upgradeDict.price;
+    }
+}
+
 // Upgrade: Multiplicator
 multiplicatorButton.addEventListener('click', () => {
-    if (money >= multiplicatorPrice) {
-        money -= multiplicatorPrice;
-        multiplicator += 1;
-        multiplicatorLevel += 1;
-        multiplicatorPrice = Math.ceil(Math.exp(0.2 * multiplicatorLevel));
-        moneyDisplay.textContent = money;
-        multiplicatorLabel.textContent = multiplicator;
-        multiplicatorPriceLabel.textContent = multiplicatorPrice;
-    }
+    upgradeButtonEventHandler(moneyUpgrade)
 });
 
 // Upgrade: Crit Chance
 critChanceButton.addEventListener('click', () => {
-    if (money >= critChancePrice) {
-        money -= critChancePrice;
-        critChance += 1;
-        critChanceLevel += 1;
-        critChancePrice = Math.ceil(Math.exp(0.2 * critChanceLevel));
-        moneyDisplay.textContent = money;
-        critChanceLabel.textContent = critChance;
-        critChancePriceLabel.textContent = critChancePrice;
-    }
+    upgradeButtonEventHandler(critChanceUpgrade)
 });
 
 // Upgrade: Crit Multiplicator
 critMultiplicatorButton.addEventListener('click', () => {
-    if (money >= critMultiplicatorPrice) {
-        money -= critMultiplicatorPrice;
-        critMultiplicator += 1;
-        critMultiplicatorLevel += 1;
-        critMultiplicatorPrice = Math.ceil(
-            Math.exp(0.2 * critMultiplicatorLevel)
-        );
-        moneyDisplay.textContent = money;
-        critMultiplicatorLabel.textContent = critMultiplicator;
-        critMultiplicatorPriceLabel.textContent = critMultiplicatorPrice;
-    }
+    upgradeButtonEventHandler(critMultiplicatorUpgrade)
 });
 
 // Upgrade: Auto‑clicker ("l'admin clique pour toi")
 adminAutoClickerButton.addEventListener('click', () => {
-    if (money >= adminAutoClickerPrice) {
-        money -= adminAutoClickerPrice;
-        adminAutoClickerLevel += 1;
-        adminAutoClickerPrice = Math.ceil(
-            Math.exp(0.2 * (adminAutoClickerLevel + 1))
-        );
-        moneyDisplay.textContent = money;
-        adminAutoClickerLabel.textContent = adminAutoClickerLevel;
-        adminAutoClickerPriceLabel.textContent = adminAutoClickerPrice;
-    }
+    upgradeButtonEventHandler(adminAutoClickerUpgrade)
 });
 
 
