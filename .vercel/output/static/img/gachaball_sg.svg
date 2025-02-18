@@ -1,0 +1,88 @@
+l<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7mm"
+   height="7mm"
+   viewBox="0 0 7 7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="gachaball_sg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="16.267265"
+     inkscape:cx="2.1822967"
+     inkscape:cy="21.546338"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-83-00">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-14-4"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11-8-84-8">
+      <rect
+         style="fill:#a6fffa;fill-opacity:0.471774;stroke:#a6fffb;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.790323;paint-order:fill markers stroke"
+         id="rect11-7-92-3"
+         width="8.4862185"
+         height="15.05888"
+         x="70.968094"
+         y="34.36087" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g11-7-0"
+       inkscape:label="green_goody"
+       transform="rotate(-89.913628,17.086499,57.713563)">
+      <circle
+         style="fill:#fbffa6;fill-opacity:0.470588;stroke:#fcffa6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.796078;paint-order:fill markers stroke"
+         id="path8-2-06-8"
+         cx="71.186035"
+         cy="41.085007"
+         inkscape:label="path8-2"
+         r="3"
+         clip-path="url(#clipPath11-83-00)"
+         transform="translate(0.33279292,2.7455416)" />
+      <circle
+         style="fill:#00ff14;fill-opacity:1;stroke:#11dc0d;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="path8-2-2-07-9"
+         cx="71.186035"
+         cy="41.085007"
+         inkscape:label="path8-2"
+         r="3"
+         clip-path="url(#clipPath11-8-84-8)"
+         transform="matrix(-1,0,0,1,142.29601,2.7144532)" />
+    </g>
+  </g>
+</svg>

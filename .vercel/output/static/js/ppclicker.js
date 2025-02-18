@@ -1,4 +1,4 @@
-let money = 0;
+let money = 100000000000000000000;
 let coins = 0;
 
 if (localStorage.getItem('money') !== null) {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,30 +12,68 @@
             from {
                 transform: rotate(0deg);
             }
+
             to {
                 transform: rotate(360deg);
             }
         }
 
         @keyframes colorChange {
-            0% { filter: hue-rotate(0deg); }
-            25% { filter: hue-rotate(90deg); }
-            50% { filter: hue-rotate(180deg); }
-            75% { filter: hue-rotate(270deg); }
-            100% { filter: hue-rotate(360deg); }
+            0% {
+                filter: hue-rotate(0deg);
+            }
+
+            25% {
+                filter: hue-rotate(90deg);
+            }
+
+            50% {
+                filter: hue-rotate(180deg);
+            }
+
+            75% {
+                filter: hue-rotate(270deg);
+            }
+
+            100% {
+                filter: hue-rotate(360deg);
+            }
         }
-        
+
         @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            20% { transform: translateX(-3px); }
-            40% { transform: translateX(3px); }
-            60% { transform: translateX(-3px); }
-            80% { transform: translateX(3px); }
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            20% {
+                transform: translateX(-3px);
+            }
+
+            40% {
+                transform: translateX(3px);
+            }
+
+            60% {
+                transform: translateX(-3px);
+            }
+
+            80% {
+                transform: translateX(3px);
+            }
         }
 
         @keyframes levitate {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
         }
 
         .colorful {
@@ -50,9 +89,10 @@
         }
     </style>
 </head>
-<div id="header-container"></div>
-<script src="js/header.js" type="application/javascript"></script>
+
 <body>
+    <div id="header-container"></div>
+    <script src="js/header.js" type="application/javascript"></script>
     <h1>Avis sur la patate ?</h1>
     <img id="patate" src="img/patate.png" alt="Patate">
     <br>
@@ -108,7 +148,7 @@
 
             setTimeout(() => {
                 image.classList.remove('levitate');
-                image.src = 'img/bayrou.jpg'; 
+                image.src = 'img/bayrou.jpg';
                 button.removeAttribute('disabled');
                 starButton.removeAttribute('disabled');
                 levitateButton.removeAttribute('disabled');
@@ -120,4 +160,5 @@
         });
     </script>
 </body>
+
 </html>
