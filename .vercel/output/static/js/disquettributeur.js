@@ -1,7 +1,19 @@
+let _10drawsCost = 50;
+let _1drawCost = 5;
+
+let coinsInTheBag = 0;
+
+
+if (localStorage.getItem('coins') !== null) {
+  coinsInTheBag = parseInt(localStorage.getItem('coins'));
+}
+
 const draw1button = document.getElementById("draw1button");
 const draw10button = document.getElementById("draw10button");
 const machine = document.getElementById("disquettributeur");
 const machineHandle = document.getElementById("gachapon_handle");
+const coinsLeftLabel = document.getElementById("coinsLeft");
+coinsLeftLabel.textContent = coinsInTheBag;
 // const gachaball = document.getElementById("gachaball");
 
 const smoke_explosion = document.createElement("img");
@@ -94,17 +106,27 @@ function spawnSmoke() {
   setTimeout(function() { addClaimButton(); }, 2000);
 }
 
-
-draw1button.addEventListener('click', () => {
+function drawButtonCommonHandler() {
+  coinsLeftLabel.textContent = coinsInTheBag;
   machineHandle.animate(handleRotating, handleRotatingTiming);
   machine.animate(gachaponShaking, gachaponShakingTiming);
   machine.appendChild(gachaball);
   setTimeout(function() { spawnSmoke(); }, 2650);
+}
+
+
+draw1button.addEventListener('click', () => {
+  if (coinsInTheBag > _1drawCost) {
+    coinsInTheBag -= _1drawCost
+    localStorage.setItem('coins', coinsInTheBag);
+    drawButtonCommonHandler();
+  }
 });
 
 draw10button.addEventListener('click', () => {
-  machineHandle.animate(handleRotating, handleRotatingTiming);
-  machine.animate(gachaponShaking, gachaponShakingTiming);
-  machine.appendChild(gachaball);
-  setTimeout(function() { spawnSmoke(); }, 2650);
+  if (coinsInTheBag > _10drawsCost) {
+    coinsInTheBag -= _10drawsCost
+    localStorage.setItem('coins', coinsInTheBag);
+    drawButtonCommonHandler();
+  }
 });
