@@ -1,6 +1,5 @@
 let money = 0;
 let coins = 0;
-localStorage.setItem('money', money);
 
 if (localStorage.getItem('money') !== null) {
     money = parseInt(localStorage.getItem('money'));
@@ -177,7 +176,7 @@ adminAutoClickerButton.addEventListener('click', () => {
 
 
 setInterval(() => {
-    for (let i = 0; i < adminAutoClickerLevel; i++) {
+    for (let i = 0; i < adminAutoClickerUpgrade.value; i++) {
         doClick();
     }
 }, 1000);
